@@ -29,4 +29,7 @@ as.list(x[[c(2, 4, 2)]])
 
 as.list(x[[c(2, 4, 2, 3)]])
 
+
 message('This is another test')
+print('this is a test')
+
