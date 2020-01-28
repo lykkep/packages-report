@@ -4,11 +4,8 @@ pedersl2
 2020-01-27
 
 ``` r
-<<<<<<< HEAD
 library(ggplot2)
 
-=======
->>>>>>> 6a8000289f7b49e29d860581c04ac9e634633960
 # Given this function, use `trace()` to add a `browser()` statement before the
 # stop
 # Hint: Use as.list(body(fun)) and [[c(1, 2, 3)]] to descend into the expression
@@ -63,7 +60,6 @@ as.list(x[[c(2, 4)]])
     ## if (i == 9876) print("hej")
 
 ``` r
-<<<<<<< HEAD
 ggplot(mtcars, aes(mpg, cyl))+
   geom_point()
 ```
@@ -71,8 +67,6 @@ ggplot(mtcars, aes(mpg, cyl))+
 ![](test_Rscript_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
 
 ``` r
-=======
->>>>>>> 6a8000289f7b49e29d860581c04ac9e634633960
 as.list(x[[c(2, 4, 2)]])
 ```
 
